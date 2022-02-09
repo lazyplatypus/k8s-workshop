@@ -19,108 +19,25 @@
     ]
   },
   {
-    "title": "Automate workflows",
+    "title": "Helm",
     "icon": "nr-tdp",
-    "url": "/automate-workflows",
+    "url": "/helm"
+  },
+  {
+    "title": "Prometheus",
+    "icon": "nr-tdp",
+    "url": "/prometheus",
     "pages": [
       {
-        "title": "Get started with the New Relic CLI",
-        "url": "/automate-workflows/get-started-new-relic-cli"
-      },
-      {
-        "title": "Set up New Relic using Terraform",
-        "url": "/automate-workflows/get-started-terraform"
-      },
-      {
-        "title": "Set up New Relic using the Kubernetes operator",
-        "url": "/automate-workflows/get-started-kubernetes"
-      },
-      {
-        "title": "Set up New Relic using Helm charts",
-        "url": "/automate-workflows/kubernetes-helm-deployment"
-      },
-      {
-        "title": "Tag a set of resources efficiently",
-        "url": "/automate-workflows/5-mins-tag-resources"
-      },
-      {
-        "title": "Automated end-to-end tagging of entities",
-        "url": "/automate-workflows/automated-tagging"
-      },
-      {
-        "title": "Use New Relic to diagnose problems in your system",
-        "url": "/automate-workflows/diagnose-problems",
-        "pages": [
-          {
-            "title": "High response times",
-            "url": "/automate-workflows/diagnose-problems/high-response-times"
-          },
-          {
-            "title": "Error alerts",
-            "url": "/automate-workflows/diagnose-problems/error-alerts"
-          }
-        ]
+        "title": "Prometheus OpenMetrics Integration (POMI)",
+        "url": "/prometheus/POMI"
       }
     ]
   },
   {
-    "title": "Build apps",
-    "url": "/build-apps",
-    "pages": [
-      {
-        "title": "Set up your development environment",
-        "url": "/build-apps/set-up-dev-env"
-      },
-      {
-        "title": "Create a 'Hello, World!' app",
-        "url": "/build-apps/build-hello-world-app"
-      },
-      {
-        "title": "Publish and deploy your app",
-        "url": "/build-apps/publish-deploy"
-      },
-      {
-        "title": "Permissions for managing apps",
-        "url": "/build-apps/permission-manage-apps"
-      },
-      {
-        "title": "Map pageviews by region",
-        "url": "/build-apps/map-pageviews-by-region"
-      },
-      {
-        "title": "Add a time picker",
-        "url": "/build-apps/add-time-picker-guide"
-      },
-      {
-        "title": "Add the NerdGraphQuery component to an app",
-        "url": "/build-apps/add-nerdgraphquery-guide"
-      },
-      {
-        "title": "Add tables to your New Relic One application",
-        "url": "/build-apps/howto-use-nrone-table-components"
-      },
-      {
-        "title": "Add, query, and mutate data using NerdStorage",
-        "url": "/build-apps/add-query-mutate-data-nerdstorage"
-      },
-      {
-        "title": "See all open source apps",
-        "url": "https://opensource.newrelic.com/nerdpacks/"
-      }
-    ]
-  },
-  {
-    "title": "Try our APIs",
-    "pages": [
-      {
-        "title": "New Relic API Explorer",
-        "url": "https://rpm.newrelic.com/api/explore"
-      },
-      {
-        "title": "NerdGraph API Explorer",
-        "url": "https://api.newrelic.com/graphiql"
-      }
-    ]
+    "title": "On Host Integrations",
+    "icon": "nr-tdp",
+    "url": "/on-host-integrations"
   },
   {
     "title": "Explore docs",
