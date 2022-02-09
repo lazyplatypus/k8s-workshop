@@ -1,28 +1,20 @@
 [
   {
-    "title": "Collect data",
+    "title": "Fundamentals",
     "icon": "nr-tdp",
-    "url": "/collect-data",
+    "url": "/fundamentals",
     "pages": [
       {
-        "title": "Collect data from any source",
-        "url": "/collect-data/collect-data-from-any-source"
+        "title": "Prereqs",
+        "url": "/fundamentals/prereqs"
       },
       {
-        "title": "Create custom attributes",
-        "url": "/collect-data/custom-attributes"
+        "title": "Deploy Apps",
+        "url": "/fundamentals/deploy-apps"
       },
       {
-        "title": "Create custom New Relic events",
-        "url": "/collect-data/custom-events"
-      },
-      {
-        "title": "Query data with NRQL",
-        "url": "/collect-data/query-data-nrql"
-      },
-      {
-        "title": "Explore NerdGraph using the API Explorer",
-        "url": "/collect-data/get-started-nerdgraph-api-explorer"
+        "title": "kubectl",
+        "url": "/fundamentals/kubectl"
       }
     ]
   },

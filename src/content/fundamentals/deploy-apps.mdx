@@ -1,4 +1,12 @@
-## 02. Deploy Apps
+---
+title: 'Deploy Apps'
+resources:
+  - title: Kubernetes Components
+    url: https://kubernetes.io/docs/concepts/overview/components/
+  - title: Kubernetes Cluster Resources
+    url: https://kubernetes.io/docs/reference/kubernetes-api/cluster-resources/
+---
+
 
 In this module, you'll deploy some demo apps which will be used to illustrate the various concepts found within this workshop.
 
@@ -15,14 +23,14 @@ prometheus_metrics|Provides custom Prometheus metrics exposed on a `/metrics` en
 
 Use the following command to create a namespace for your apps.
 
-```
+```bash
 [~]$ kubectl create namespace demo
 namespace/demo created
 ```
 
 ### Run the `deploy-apps.sh` shell script
 
-```
+```bash
 [~]$ ./deploy-apps.sh myDemoApp
 deployment.apps/crasher created
 configmap/nginx-conf created
@@ -49,8 +57,3 @@ prometheus-demo-metrics-6bbbc65c75-9xvwf   1/1     Running                      
 ### Conclusion
 
 In this module, you deployed some demo apps to a namespace called `demo`.  If you used the shell script to deploy the apps, be sure to check out the contents of the script and take note of the commands that were used.
-
----
-
-
-Let's jump over to [03. Troubleshooting section](), learn some new commands, and fix the `logs-demo-*` pod.
